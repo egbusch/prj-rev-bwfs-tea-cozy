@@ -1,0 +1,151 @@
+
+html {
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+p {
+  margin: 35px auto;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  color: white;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+header nav {
+  margin-right: 20px;
+}
+
+header a {
+  color: seashell;
+  margin: auto 10px;
+}
+
+header a:hover {
+  font-size: 24px;
+}
+
+/* BODY */
+
+.content {
+  margin-top: 69px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our_mision {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.caracteristic {
+  background-color: black;
+}
+
+.caracteristic h2,
+.caracteristic h4 {
+  margin: 10px auto;
+}
+
+.Tea_of_the_Month {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu .image {
+  width: 300px;
+  height: 200px;
+  margin: 0 10px;
+}
+
+.menu h4 {
+  margin: 10px auto;
+}
+
+.locations {
+  height: 580px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+}
+
+.locations h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.locations .sites {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  padding-top: 15px;
+}
+
+.locations .site {
+  width: 300px;
+  margin: 20px;
+  background-color: black;
+  margin-top: 0;
+}
+
+.info {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info h2 {
+  margin-top: 10px;
+}
+
+.info h5 {
+  margin: 15px auto;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+footer p {
+  margin-left: 20px;
+}
